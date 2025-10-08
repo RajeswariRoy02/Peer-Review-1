@@ -1,0 +1,21 @@
+{
+  "name": "react-app-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack React application with frontend and backend",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && node src/index.js",
+    "build:frontend": "cd frontend && npm run build",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "test:frontend": "cd frontend && npm test",
+    "preview:frontend": "cd frontend && npm run preview"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}

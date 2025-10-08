@@ -1,0 +1,4 @@
+[
+  { "server_id": "server-A", "host": "localhost", "port": 8081 },
+  { "server_id": "server-B", "host": "localhost", "port": 8082 }
+]
